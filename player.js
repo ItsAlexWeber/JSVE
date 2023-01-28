@@ -1,6 +1,7 @@
 
 var c = document.getElementById("test-canvas");
 var ctx = c.getContext("2d");
+var x = 0;
 ctx.beginPath();
 ctx.moveTo(0, 0);
 ctx.lineTo(20, 0);
